@@ -1,0 +1,16 @@
+FUNCTION palindrome(word):BOOLEAN
+VAR
+
+BEGIN
+    if(word.length== [""]||["a"]){
+
+    return true;}
+    else{
+        if(word[0]==word(word.length-1))
+        return true;
+    }
+    else{
+        return false;
+    }
+
+END palindrome(word)
